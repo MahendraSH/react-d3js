@@ -19,8 +19,8 @@ const D3Table: FC<D3TableProps> = ({}) => {
   const d3_link = d3Links;
 
   return (
-    <Table className=" max-w-fit mx-auto">
-      <TableCaption> D3  react components </TableCaption>
+    <Table className=" max-w-fit mx-auto max-h-96 overflow-auto">
+      <TableCaption> D3 react components </TableCaption>
       <TableHeader>
         <TableRow>
           <TableHead className="w-52"> id </TableHead>

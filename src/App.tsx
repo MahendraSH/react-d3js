@@ -7,6 +7,7 @@ import { Loader } from "lucide-react";
 import Rain from "./components/d3/rain";
 import RectLines from "./components/d3/rect-lines";
 import GridD3 from "./components/d3/grid-d3";
+import SineWave from "./components/d3/sine-wave";
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
         <Route path="/rain" element={<Rain />} />
         <Route path="/rect-lines" element={<RectLines />} />
         <Route path="/grid-d3" element={<GridD3 />} />
+        <Route path="/sine-wave" element={<SineWave />} />
       </Route>
       <Route
         path="/*"

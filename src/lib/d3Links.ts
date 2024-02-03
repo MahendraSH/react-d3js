@@ -9,4 +9,5 @@ export const d3Links = [
   { to: "/rect-lines", label: "react x and y  lines using Reactangle", id: 2 },
   { to: "/grid-d3", label: "Grid using react", id: 3 },
   { to: "/rain", label: "Rain using Reactangle", id: 4 },
+  { to: "/sine-wave", label: "sine wave", id: 5 },
 ].sort((a, b) => a.id - b.id);
