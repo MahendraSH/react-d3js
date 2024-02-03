@@ -1,5 +1,4 @@
 import Footer from "@/components/footer";
-import { ModeToggle } from "@/components/mode-toggle";
 import Navbar from "@/components/navbar";
 import { FC } from "react";
 import { Outlet } from "react-router-dom";
@@ -14,7 +13,6 @@ const RootLayout: FC<RootLayoutProps> = ({}) => {
         <Outlet />
       </main>
       <span className=" fixed bottom-8 right-5 ">
-        <ModeToggle />
       </span>
       <Footer />
     </div>

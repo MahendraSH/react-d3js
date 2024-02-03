@@ -1,5 +1,7 @@
 import { FC } from "react";
 import { Button } from "./ui/button";
+import { Link } from "react-router-dom";
+import { ModeToggle } from "./mode-toggle";
 
 interface NavbarProps {}
 
@@ -7,12 +9,12 @@ const Navbar: FC<NavbarProps> = ({}) => {
   return (
     <>
       <div className="navbar  p-0 m-0 shadow shadow-muted-foreground">
-        <Button variant={"navbar"}> NavIcon</Button>
+        <Link to={"/"}>
+          <Button variant={"navbar"}> D3-react </Button>
+        </Link>
 
         <div className=" flex  space-x-6 ml-auto  mr-5">
-          <Button variant={"ghost"}> link 1</Button>
-          <Button variant={"ghost"}> link 2</Button>
-          <Button variant={"ghost"}> link 3</Button>
+          <ModeToggle />
         </div>
       </div>
     </>
