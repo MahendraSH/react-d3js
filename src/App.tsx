@@ -5,6 +5,8 @@ import RandomCircle from "./components/d3/random-circles";
 import { Button } from "./components/ui/button";
 import { Loader } from "lucide-react";
 import Rain from "./components/d3/rain";
+import RectLines from "./components/d3/rect-lines";
+import GridD3 from "./components/d3/grid-d3";
 
 export default function App() {
   return (
@@ -13,6 +15,8 @@ export default function App() {
         <Route index element={<Home />} />
         <Route path="/radmon-circle" element={<RandomCircle />} />
         <Route path="/rain" element={<Rain />} />
+        <Route path="/rect-lines" element={<RectLines />} />
+        <Route path="/grid-d3" element={<GridD3 />} />
       </Route>
       <Route
         path="/*"

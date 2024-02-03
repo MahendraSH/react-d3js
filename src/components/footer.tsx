@@ -1,7 +1,6 @@
 import { FC } from "react";
 import { Button } from "./ui/button";
 import { Link } from "react-router-dom";
-import { GithubIcon } from "lucide-react";
 import { GitHubLogoIcon } from "@radix-ui/react-icons";
 
 interface FooterProps {}
