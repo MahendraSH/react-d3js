@@ -1,4 +1,3 @@
-import { Circle } from "lucide-react";
 import { FC, useState } from "react";
 import { useInterval } from "usehooks-ts";
 
